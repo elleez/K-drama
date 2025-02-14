@@ -1,0 +1,123 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(slide3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.align{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.align ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.align ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.align ul li::after {
+    content:'';
+    height: 3px;
+    width: 0%;
+    background: #960075;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.align ul li:hover::after{
+    width: 100;
+}
+.front-text{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color:#fff;
+}
+.front-text h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.front-text p{
+    margin: 20px;
+    font-weight: 100;
+    line-height: 25px;
+}
+button{
+    width:200px;
+    padding: 15px 0;
+    text-align: center;
+    margin:20px 10px;
+    border-radius: 25;
+    font-weight: bold;
+    border: 2px solid #96008e;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+button:hover{
+    border: none;
+}
+.dropdown {
+    float: center;
+    overflow: relative;
+}
+.dropdown .dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  .dropdown-content {
+    display: none;
+    position: relative;
+    background: transparent;
+    
+  }
+  .dropdown-content a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+.dropdown:hover .dropbtn {
+    background-color: transparent;
+    color: black;
+  }
+  .dropdown-content a:hover {
+    width: 10ox;
+    background-color: transparent;
+    color: palevioletred;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  

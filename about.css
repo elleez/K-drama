@@ -1,0 +1,39 @@
+.banner{
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(slide4.jpg);
+  background-size: auto;
+  background-position: center;
+}
+  .header {
+    overflow: hidden;
+    background-color: transparent;
+    padding: 0px 5px;
+  }
+  .header a {
+    float: right;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 10px;
+    color: palevioletred;
+    text-decoration: bold;
+    font-size: medium;
+    text-decoration: underline;
+   
+  }
+  .header a:hover {
+    background-color: transparent;
+   
+  }
+  .header-right {
+    float: left;
+  }
+  .text h3{
+
+    color: white;
+  }
+  .text p{
+    color: white;
+    font-family: monospace;
+  }
